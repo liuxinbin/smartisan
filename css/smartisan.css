@@ -23,15 +23,18 @@ ul {
   -o-transform: translateZ(50px);
   transform: translateZ(50px);
 }
+.wrapper {
+  min-width: 1220px;
+}
 .wrapper .header {
   width: 100%;
   height: 100px;
   background: black;
 }
 .wrapper .header .container {
-  margin: 0 auto;
   width: 1220px;
   height: 100px;
+  margin: 0 auto;
 }
 .wrapper .header .container .logo {
   display: inline-block;
