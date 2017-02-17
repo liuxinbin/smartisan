@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang=zh>
+
+<head>
+<meta charset=utf-8>
+<meta http-equiv=X-UA-Compatible content="IE=Edge">
+<meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="shortcut icon" href="../img/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="css/login.css" />
+<style type="text/css">
+
+</style>
+<title>账户中心 - 锤子科技</title>
+
+</head>
+
+<body>
+<div class="container">
+    <div class="dialog">
+        <div class="title">
+            <h4>使用 Smartisan ID 登录官网</h4>
+        </div>
+        <div class="content">
+            <form action="">
+                <ul>
+                    <li>
+                        <div class="input">
+                            <i class="txt"></i>
+                            <input type="text" placeholder="电话号码/邮箱" />
+                        </div>
+                    </li>
+                    <li>
+                        <div class="input">
+                            <i class="psw"></i>
+                            <input type="password" placeholder="密码" />
+                        </div>
+                    </li>
+                    <li class="remember">
+                        <span>
+                        	<i id="a"></i>
+                        	<a href="#">7天自动登录</a>
+                        </span>
+                        <div class="rt">
+                            <a href="">注册 Smartisan ID </a>
+                            <b></b>
+                            <a href="">忘记密码？</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn">登录</div>
+                    </li>
+                    <li>
+                        <div class="footer">
+                            <span>其他账号登录：</span>
+                            <div class="tubiao">
+                            	<i></i>
+                                <i></i>
+                                <i></i>
+                            </div>
+                            <div class="gjphone">国际手机号登录 &gt;</div>
+                        </div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="../js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $("#a").click(function() {
+        $(this).toggleClass("click");
+    })
+    $("a").click(function(e) {
+        e.preventDefault();
+        $(this).siblings("i").toggleClass("click");
+    });
+</script>
+</body>
+
+</html>
