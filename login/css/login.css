@@ -12,7 +12,8 @@ ul {
   background: url("../img/checkbox_f49f6e4acf.png") 1px 2px;
 }
 .container {
-  height: 100vh;
+  min-width: 480px;
+  min-height: 100vh;
   background: url("../img/bg_9b9dcb65ff.png");
 }
 .container:before {
