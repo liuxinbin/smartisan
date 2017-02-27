@@ -38,10 +38,10 @@
                     <li class="remember">
                         <span>
                         	<i id="a"></i>
-                        	<a href="#">7天自动登录</a>
+                        	<a id="b" href="#">7天自动登录</a>
                         </span>
                         <div class="rt">
-                            <a href="">注册 Smartisan ID </a>
+                            <a href="../register.html">注册 Smartisan ID </a>
                             <b></b>
                             <a href="">忘记密码？</a>
                         </div>
@@ -71,7 +71,7 @@
     $("#a").click(function() {
         $(this).toggleClass("click");
     })
-    $("a").click(function(e) {
+    $("#b").click(function(e) {
         e.preventDefault();
         $(this).siblings("i").toggleClass("click");
     });

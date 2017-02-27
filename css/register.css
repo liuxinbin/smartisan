@@ -1,3 +1,8 @@
+body{
+	height: 100%;
+	background: url(../login/img/bg_9b9dcb65ff.png) center;
+	font-size: 1.5em;
+}
 .container {
 	width: 50%;
 	height: 500px;
